@@ -5,3 +5,15 @@
     padding: 0;
     box-sizing: inherit;
 }
+.nav_bar_flex{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+
+}
+.nav_flex_item{
+    margin: 1rem;
+}
+header {
+    background-color:rgb(138, 119, 36)
+}

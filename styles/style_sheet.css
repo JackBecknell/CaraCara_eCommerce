@@ -5,6 +5,12 @@
     padding: 0;
     box-sizing: inherit;
 }
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
 .nav_bar_flex{
     display: flex;
     list-style-type: none;
@@ -17,3 +23,5 @@
 header {
     background-color:rgb(138, 119, 36)
 }
+
+

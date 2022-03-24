@@ -339,6 +339,8 @@ rgba(0, 0, 0, 0),
 rgb(0, 0, 0) 85%
 ),
 url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    max-width: 100%;
+    max-height: auto;
     object-fit: cover;
     position: relative;
     background-position: center -50px;

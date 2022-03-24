@@ -328,22 +328,26 @@ input:hover {
     text-align: center;
     color: white;
 }
-
+/*  background-position: center;
+    max-height: 80vh;
+    background-size: cover;
+    background-image:url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg)*/
 .gradient {
-    height: 52.9vh;
-    background-color: black;
+    background-position: center;
+    max-height: 80vh;
+    background-size: cover;
     background-image: linear-gradient(
-90deg,
-rgb(0, 0, 0) 15%,
-rgba(0, 0, 0, 0),
-rgb(0, 0, 0) 85%
-),
-url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
-    max-width: 100%;
-    max-height: auto;
-    object-fit: cover;
+            90deg,
+            rgb(0, 0, 0) 10%,
+            rgba(0, 0, 0, 0),
+            rgb(0, 0, 0) 90%
+        ),
+        url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    object-fit: contain;
     position: relative;
-    background-position: center -50px;
+    max-height: 80vh;   
+    background-position: center;
+    
 }
 
 .landing_text_container {
@@ -376,9 +380,10 @@ url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
     font-size: 60px;
     bottom: 490px;
     left: 2760px;
+    font-size: medium;
     font-weight: lighter;
     text-align: right;
-    margin-left: 0rem;
+    margin-right: 0rem;
     width: 250px;
 }
 

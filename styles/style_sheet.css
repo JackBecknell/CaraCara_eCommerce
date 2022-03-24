@@ -99,6 +99,80 @@ html {
     display: block;
 }
 
+.contact {
+    padding: 2%;
+    border: 1%;
+    margin: 2%;
+    background-color: aqua;
+}
+
+h3  {
+    font-size: 3rem;
+    font-weight: normal;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: black;
+    color: black;
+    margin-right: 50rem;
+    margin-left: 7rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: normal;
+}
+
+.email_message_header {
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+
+.email_message_input {
+    font-size: 1.5rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+
+.email {
+    width: 80%;
+    height: 3rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+}
+
+.message {
+    width: 80%;
+    height: 15rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+}
+
+.submit_button {
+    justify-self: right;
+    float: right;
+    margin-right: 20%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    border: none;
+    padding: .5rem 2rem;
+    color: #FFFFFF;
+    background-color: #BF7631;
+}
+
+
 /*these below have been assigned to many images just to keep them under control and not to big. feel free to remove if you'd like*/
 .small_image {
     max-width: 15%;
@@ -107,8 +181,7 @@ html {
 .space {
     padding: 2%;
     border: 1%;
-    margin: 2%;
-
+    margin: 2%; 
 }
 
 .welcome{

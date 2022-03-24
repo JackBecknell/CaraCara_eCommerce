@@ -108,6 +108,10 @@ html {
     background-color: aqua;
 }
 
+h1 {
+    font-weight: normal;
+}
+
 h3  {
     font-size: 3rem;
     font-weight: normal;
@@ -134,6 +138,51 @@ p {
     color: black;
 }
 
+.the_foot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #BF7631;
+    padding-bottom: 1rem;
+    height: 12rem;
+    margin-top: 10rem;
+    padding-bottom: 0rem;
+}
+
+.foot_image {
+    max-width: 5rem;
+    margin: 1rem;
+}
+
+.foot_image_together {
+    display: flex;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer_logo_img {
+    width: 6.5rem;
+}
+
+.finishing_text {
+    background-color: #BF7631;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+    justify-content: flex-end;
+    padding-top: -15px;
+}
+
+.copyright {
+    max-width: 600px;
+    margin-left: 23.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
 input:hover {
     display: inline-block;
     vertical-align: middle;
@@ -141,19 +190,6 @@ input:hover {
         translateX(0);
     transition-property: transform;
 }
-
-/*button:hover {
-    display: inline-block;
-    vertical-align: middle;
-    transform: perspective(10px)
-        translateZ(0);
-    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
-    overflow: visible;
-    transition-duration: 0.5s;
-    transition-property: transform;
-}*/
-
-
 
 .card_deck {
     display: grid;
@@ -204,10 +240,6 @@ input:hover {
 
 .product_price {
     float: right;
-}
-
-.product_description {
-
 }
 
 .email_message_header {

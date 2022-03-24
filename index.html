@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -9,79 +10,88 @@
     </head>
     
     <body>
-            <header>
-                <nav>
-                    <ul class="nav_bar_flex">
+            <header class="head">
+                <nav class="nav_bar_flex ">
+                    <ul class="nav">
                         <li class="nav_flex_item">
-                            <a href="#home">HOME</a>
+                            <a href="#home"><button type="button" class="nav_button">HOME</button></a>
                         </li>
                         <li class="nav_flex_item">
-                            <a href="#about">ABOUT US</a>
+                            <a href="#about"><button type="button" class="nav_button">ABOUT US</button></a>
                         </li>
                         <li class="nav_flex_item">
-                            <a href="#products">PRODUCTS</a>
+                            <a href="#products"><button type="button" class="nav_button">PRODUCTS</button></a>
                         </li>
                         <li class="nav_flex_item">
-                            <a href="#contact">CONTACT US</a>
+                            <a href="#contact"><button type="button" class="nav_button">CONTACT US</button></a>
                         </li>
                     </ul>
-                    <h1>
-                        CARA<img src="./assets/icons8-pottery-96.png" alt="Cara Cara Logo">CARA
-                    </h1>
-                    <form class="example" action="/action_page.php">
-                        <input type="text" name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                        <img src="./assets/1200px-Google_Magnifying_Glass.svg.png">
-                    </form>
+                    <div class="display_flex align_items_center">
+                        <h1 >CARA</h1>
+                        <img src="./assets/icons8-pottery-96.png" alt="Cara Cara Logo" class="cara_logo">
+                        <h1 >CARA</h1>
+                    </div>
+                    <div class="end_of_head display_flex align_items_center">
+                        <form class="srch_bar" action="/action_page.php">
+                            <input type="text" name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                        <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" class="srch_bar_magnify_g">
+                        <a href="#cart"><button type="button" class="nav_button">CART (0)</button></a>
+                    </div>
                 </nav>
+                <div class="line">
+                </div>
             </header>
 
-            <main id="home">
-                <div>
-                    <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg">
+            <main>
+                <div class="main">
+                    <h2>CERAMICS CRAFTED BY HAND...</h2>
+                    <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="" class="main_img">
+                    <h2>...FROM THE GROUND UP</h2>
                 </div>
                     <!--After MVP check for special characters-->
                 <section id="about" class="space">
-                    <img src="./assets/Vase_Dame_2048x2048.jpg">
-                    <img src="./assets/Cylinder_unglazed3_2048x2048.jpg">
+                    <img src="./assets/Vase_Dame_2048x2048.jpg" class="small_image">
+                    <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" class="small_image">
                     ABOUT
                 </section>
                 <section id="products" class="space">
                     <a href="#">
-                        <div><img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt=""/>Mundo Bowls
+                        <div><img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="" class="small_image space">Mundo Bowls
                         </div>
                     </a>
                     <a href="#">
-                        <div><img src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt=""/>Naturaza Vase
+                        <div><img src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="" class="small_image space">Naturaza Vase
                         </div>
                     </a>
                     <a href="#">
-                        <div><img src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt=""/>Feira Bowls
+                        <div><img src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="" class="small_image space">Feira Bowls
                         </div>
                     </a>
                     <a href="#">
-                        <div><img src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt=""/>Naturaza Pot
+                        <div><img src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="" class="small_image space">Naturaza Pot
                         </div>
                     </a>
                     <a href="#">
-                        <div><img src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt=""/>Pedra Vase
+                        <div><img src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="" class="small_image space">Pedra Vase
                         </div>
                     </a>
                     <a href="#">
-                        <div><img src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt=""/>Viaja Pot
+                        <div><img src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="" class="small_image space">Viaja Pot
                         </div>
                     </a>
                     <a href="#">
                         
-                        <div><img src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt=""/>Servica Plates
+                        <div><img src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="" class="small_image space">Servica Plates
                         </div>
                     </a>
                     <a href="#">
-                        <div><img src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt=""/>Campeao Vase
+                        <div><img src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="" class="small_image space">Campeao Vase
                         </div>
                     </a>
                     <a href="#">
-                        <div><img src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt=""/>Troca Bowls
+                        <div><img src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="" class="small_image space">Troca Bowls
                         </div>
                     </a>
                 </section>

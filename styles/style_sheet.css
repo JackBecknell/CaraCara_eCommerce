@@ -9,19 +9,101 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: #FFFFFF;
+}
+/*styles for the search bar*/
+.srch_bar {
+    padding-top: 3.9rem;
+    padding-bottom: 4rem;
+    float: right;
+    margin-right: -3rem;
+}
+/*Style for the magnifying glass png*/
+.srch_bar_magnify_g {
+    max-width: 2rem;
+    height: 2rem;
+    float: right; 
+    align-content: center;
+    margin-right: 1rem;
 }
 
+.display_flex {
+    display: flex;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+
+/*the parent for pretty much all styles in the header*/
 .nav_bar_flex{
     display: flex;
     list-style-type: none;
-    flex-wrap: wrap;
-
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    
+    
 }
+
+.line {
+    background-color: #FFFFFF;
+    height: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-style: solid;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+/*styles for the buttons home, about us, products, contact us*/
 .nav_flex_item{
-    margin: 1rem;
+    display: inline-block;
+    margin: 0px;
+    padding: 0.2rem;
+    size: 2rem;
+    border: none;
 }
-header {
-    background-color:rgb(138, 119, 36)
+/*styles for all buttons in the header i.e.(home, about us, products, contact us, and cart)*/
+.nav_button {
+    background-color: transparent;
+    border: transparent;
+    margin: 0 1rem 0 1rem;
+}
+.nav {
+    margin-left: 4rem;
 }
 
+.end_of_head {
+    margin-right: 4rem;
+}
+/*style for the logo in the header*/
+.cara_logo {
+    max-width: 3rem;
+}
+
+.main {
+    display: grid;
+    color:#838282;
+    font-size: 5rem;
+    
+}
+
+.main_img {
+    max-width: 100%;
+}
+
+/*these below have been assigned to many images just to keep them under control and not to big. feel free to remove if you'd like*/
+.small_image {
+    max-width: 15%;
+}
+
+.space {
+    padding: 2%;
+    border: 1%;
+    margin: 2%;
+
+}
 

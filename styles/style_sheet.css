@@ -6,6 +6,8 @@
     box-sizing: inherit;
 }
 
+/*#BF7631*/
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -117,12 +119,95 @@ h3  {
     color: black;
     margin-right: 50rem;
     margin-left: 7rem;
+    margin-bottom: 10rem;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: black;
     font-weight: normal;
+}
+
+p {
+    max-width: fit-content;
+    font-size: 14px;
+    color: black;
+}
+
+input:hover {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(20px)
+        translateX(0);
+    transition-property: transform;
+}
+
+/*button:hover {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(10px)
+        translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    overflow: visible;
+    transition-duration: 0.5s;
+    transition-property: transform;
+}*/
+
+
+
+.card_deck {
+    display: grid;
+    grid-template-areas: 
+        "top-l top-c top-r"
+        "mid-l mid-c mid-r"
+        "bot-l bot-c bot-r";
+    justify-content: space-evenly;
+}
+
+.cards {
+    height: auto;
+    width: 350px;
+    margin-bottom: 5rem;
+
+}
+.card_image {
+    width: 350px;
+	height: 350px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+.product_and_value {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.flex_left_and_right {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_name {
+    width: 200px;
+    padding-bottom: 7px;
+    border-style: solid;
+    border-color: black;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+}
+
+.product_price {
+    float: right;
+}
+
+.product_description {
+
 }
 
 .email_message_header {
@@ -160,7 +245,7 @@ h4 {
     resize: none;
 }
 
-.submit_button {
+.gold_button_whit_text {
     justify-self: right;
     float: right;
     margin-right: 20%;
@@ -171,6 +256,28 @@ h4 {
     color: #FFFFFF;
     background-color: #BF7631;
 }
+
+.add_to_cart_button {
+    justify-self: right;
+    width: min-content;
+    background-color: #BF7631;
+    color: #FFFFFF;
+    border: none;
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    margin-top: 8px;
+}
+
+.learn_more_button {
+    color: #BF7631;
+    background-color: transparent;
+    border-color: #BF7631;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    padding-bottom: -1px;
+}
+
 
 
 /*these below have been assigned to many images just to keep them under control and not to big. feel free to remove if you'd like*/

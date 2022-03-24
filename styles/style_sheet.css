@@ -88,11 +88,15 @@ html {
     display: grid;
     color:#838282;
     font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 .main_img {
+    position: relative;
     max-width: 100%;
+    z-index: -1;
+    display: block;
 }
 
 /*these below have been assigned to many images just to keep them under control and not to big. feel free to remove if you'd like*/
@@ -105,5 +109,28 @@ html {
     border: 1%;
     margin: 2%;
 
+}
+
+.welcome{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.gradient{
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.70),rgba(0,0,0,1));
+}
+
+.top_left_text{
+    position: absolute;
+    top:8px;
+    left:16px
+}
+
+.bottom_right_text{
+    position: absolute;
+    bottom: 8px;
+    right: 16px
 }
 

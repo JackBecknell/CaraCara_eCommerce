@@ -144,7 +144,6 @@ p {
     align-items: center;
     background-color: #BF7631;
     padding-bottom: 1rem;
-    height: 12rem;
     margin-top: 10rem;
     padding-bottom: 0rem;
 }
@@ -328,10 +327,7 @@ input:hover {
     text-align: center;
     color: white;
 }
-/*  background-position: center;
-    max-height: 80vh;
-    background-size: cover;
-    background-image:url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg)*/
+
 .gradient {
     background-position: center;
     max-height: 80vh;
@@ -347,7 +343,6 @@ input:hover {
     position: relative;
     max-height: 80vh;   
     background-position: center;
-    
 }
 
 .landing_text_container {
@@ -379,68 +374,72 @@ input:hover {
     color: white;
     font-size: 60px;
     bottom: 490px;
-    left: 2760px;
+    left: 760px;
     font-size: medium;
     font-weight: lighter;
     text-align: right;
     margin-right: 0rem;
     width: 250px;
 }
+.center_about_us {
+    display: flex;
+    justify-content: center;
+}
+.about_us_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.box_one {
+    width: 80rem;
+    height: 20rem;
+}
+.box_two {
+    width: 46.875rem;
+    height: 18.75rem; 
+}
+
+.box_three {
+    width: 35rem;
+    height: 45rem;
+}
+
+.box_four {
+    width: 45rem;
+    height: 400px;
+}
+
+
+/*the actual element*/
+
 
 .about_left_img {
-    position: relative;
-    float: left;
-    left: 5.7rem;
+    max-height: 45rem;
+    height: auto;
+    position: center
+}
+
+.about_right_img {
+    max-width: 48.3rem;
+    height: auto;
+    position: center;
 }
 
 .about_left_text {
-    position: relative;
-    margin-left: 15rem;
-    margin-top: 5rem;
-    margin-right: 47rem;
-    margin-bottom: 5rem;
-    font-size: 3rem;
-    color: rgb(0,0,0);
-}
-
-
-.about_right_img_container{
-    display: inline-block;
-    position: relative;
-    max-width: 100%;
-}
-
-.about_right_text{
-    margin-left: 10rem;
-    margin-top: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 10rem;
-}
-
-.about_middle_text_container {
-    display: inline-block;
-    margin-top: 0rem;
-    margin-right: 11.4px;
-    margin-left: 9.2rem;
-    margin-bottom: 0;
-    height: 50rem;
-    width: 50rem;
-    font-size: 3rem;
-    color: rgb(0,0,0);
+    padding: 3rem;
+    padding-top: 0%;
+    width: 750px;
+    height: 300px;
+    position: center;
 }
 
 .about_middle_text{
-    position:absolute;
-    text-align: center;
-    font-size: 2rem;
-    margin: 50rem,0rem,500rem,25rem
+    padding: 3rem;
+    padding-top: 0%;
+    width: 750px;
+    height: 300px;
+    position: center;
 }
 
-#about_rt_img {
-    float: right;
-    position: relative;
-    bottom: 65.9rem;
-    top: -16.3rem;
-    left: 10rem;
-    transform: scaleX(-1);
-}

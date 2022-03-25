@@ -411,6 +411,7 @@ input:hover {
     justify-content: start;
 }
 
+/*the divs*/
 .box_one {
     width: 80rem;
     height: 20rem;
@@ -428,6 +429,38 @@ input:hover {
 .box_four {
     width: 45rem;
     height: 400px;
+}
+
+
+/*the actual element*/
+
+
+.about_left_img {
+    max-height: 45rem;
+    height: auto;
+    position: center
+}
+
+.about_right_img {
+    max-width: 48.4rem;
+    height: auto;
+    position: center;
+}
+
+.about_left_text {
+    padding: 3rem;
+    padding-top: 0%;
+    width: 750px;
+    height: 300px;
+    position: center;
+}
+
+.about_middle_text{
+    padding: 3rem;
+    padding-top: 0%;
+    width: 750px;
+    height: 300px;
+    position: center;
 }
 
 

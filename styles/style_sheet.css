@@ -328,7 +328,7 @@ input:hover {
     color: white;
 }
 
-.gradient {
+/*    .gradient {
     background-position: center;
     max-height: 80vh;
     background-size: cover;
@@ -344,11 +344,29 @@ input:hover {
     max-height: 80vh;   
     background-position: center;
 }
+/*  background-position: center;
+    max-height: 80vh;
+    background-size: cover;
+    background-image:url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg)*/
+    .gradient {
+        background-size: cover;
+        background-image: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 8.5%,
+    rgba(0, 0, 0, 0),
+    rgb(0, 0, 0) 91.5%
+    ),
+    url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+        object-fit: contain;
+        position: relative;
+        max-height: 80vh;
+        background-position: center;
+    }
 
 .landing_text_container {
-    display: block;
-    width: 350px;
-    height: 1060px;
+    display: flex;
+    width: 100%;
+    height: 80rem;
     word-wrap: break-word;
     font-size: 5rem;
     position: relative;
@@ -356,30 +374,31 @@ input:hover {
 
 .top_left_text {
     color: white;
-    width: fit-content;
+    width: 378px;
+    height: 197px;
     word-wrap: break-word;
-    font-size: 5rem;
-    display: inline-block;
     position: absolute;
-    top: 210px;
-    left: 721px;
-    margin-right: 190rem;
+    font-size: 3.9rem;
+    text-align: left;
+    word-spacing: -0.7px;
     font-weight: lighter;
-    font-size: 60px;
+    letter-spacing: 0.2em;
+    margin-top: 10rem;
+    margin-left: 0rem;
 }
-
 .bottom_right_text {
-    height: 100px;
-    position: absolute;
     color: white;
-    font-size: 60px;
-    bottom: 490px;
-    left: 760px;
-    font-size: medium;
-    font-weight: lighter;
+    width: 248px;
+    height: 197px;
+    word-wrap: break-word;
+    position: absolute;
+    font-size: 3.9rem;
     text-align: right;
-    margin-right: 0rem;
-    width: 250px;
+    word-spacing: -.7em;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    bottom: 30rem;
+    right: 0rem;
 }
 .center_about_us {
     display: flex;
@@ -412,34 +431,6 @@ input:hover {
 }
 
 
-/*the actual element*/
 
 
-.about_left_img {
-    max-height: 45rem;
-    height: auto;
-    position: center
-}
-
-.about_right_img {
-    max-width: 48.3rem;
-    height: auto;
-    position: center;
-}
-
-.about_left_text {
-    padding: 3rem;
-    padding-top: 0%;
-    width: 750px;
-    height: 300px;
-    position: center;
-}
-
-.about_middle_text{
-    padding: 3rem;
-    padding-top: 0%;
-    width: 750px;
-    height: 300px;
-    position: center;
-}
 
